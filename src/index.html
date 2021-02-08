@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Lorenz Alexander Portfolio</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../styles/site.css">
+    </head>
+    
+    <body>
+        <header>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Lorenz Alexander</strong>
+            </h1>
+            <div class="section__subtitle section__subtitle--audio">
+                <audio id="player" src="../media/lorenz-sample.mp3" type="audio/mpeg" controls>
+                    Your browser does not support the audio tag
+                </audio>
+            </div>
+            <p class="section__subtitle section__subtitle--intro">
+                actor, musician, editor
+            </p>
+            <img src="../media/lorenz-01.jpg" alt="a picture of Lorenz smiling" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Genres</h3>
+                    <p>Animation, Video Games, Commercial, with a diverse range incorporating many genres and character types</p>
+                </div>
+
+                <div class="service">
+                   <h3>Studio</h3>
+                   <p>Sound treated home studio recording on a CAD E100S in ProTools</p>
+                </div>
+
+                <div class="service">
+                   <h3>Vocal Profile</h3>
+                   <p>Bright, young, and energetic voice capable of creating rich, varied characters in several tones and styles</p>
+                </div>
+            </div>
+
+            <!-- <a href="#work" class="btn">
+                See My Work
+            </a> -->
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">
+                Voice actor based out of NYC
+            </p>
+
+            <div class="about-me__body">
+                <p>
+                    Hi, my name's Lorenz Alexander. My biggest passion in life is story-telling, whether
+                    that's through voice acting, composing music, or editing videos. No matter the medium,
+                    my talents and drive are sure to elevate your production to the next level. When I'm not
+                    working, I enjoy spending time with my dogs, playing the guitar, playing videogames, and 
+                    watching shows. 
+                </p>
+            </div>
+
+            <img src="../media/lorenz-02.jpg" alt="Lorenz with his dogs" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <!-- <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio">
+
+            </div>
+        </section> -->
+
+        <!-- Contact Me -->
+        <section class="contact-me" id="contact">
+            <h2 class="section__title section__title--contact">Contact Me</h2>
+            <p class="section__subtitle section__subtitle--contact"></p>
+
+            <div class="form">
+                <form action="mailto:lorenz.alexander.work@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    Your email:<br><input type="text" name="contactEmail"><br><br>
+                    Message:<br><textarea name="contactMessage" rows="6" cols="20"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:lorenz.alexander.work@gmail.com" class="footer__link">lorenz.alexander.work@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                <a class="social-list__link"
+                href="https://twitter.com/LorenzAlexand3r">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                    href="https://instagram.com/_lorenz_alexander_/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
